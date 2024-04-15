@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Predict AQI</title>
+</head>
+<body>
+  <h2>Predict AQI</h2>
+  <form action="/predict" method="post">
+    <label for="no2">NO2:</label>
+    <input type="text" id="no2" name="no2" required><br><br>
+    <label for="so2">SO2:</label>
+    <input type="text" id="so2" name="so2" required><br><br>
+    <label for="o3">O3:</label>
+    <input type="text" id="o3" name="o3" required><br><br>
+    <label for="pm25">PM2.5:</label>
+    <input type="text" id="pm25" name="pm25" required><br><br>
+    <input type="submit" value="Predict">
+  </form>
+</body>
+</html>

@@ -1,0 +1,11 @@
+import ReactDOM from 'react-dom/client';
+import App from './views/App';
+import 'semantic-ui-css/semantic.min.css'
+import React from 'react';
+const container=document.getElementById('root');
+const root=ReactDOM.createRoot(container as HTMLElement);
+root.render(
+    <React.StrictMode>
+         <App/>
+    </React.StrictMode>
+);
